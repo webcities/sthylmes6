@@ -1,143 +1,119 @@
 ---
-page-title: "Geocities for Quarto"
-title: "Quartocities: Geocities for Quarto"
+page-title: "Sthylmes: Gothic Dark Lord"
+title: "Sthylmes"
 ---
 
-:::{.holder}
-:::{.news}
-To get started clone schochastics/quartocities and go wild
-:::
-:::
-
-## Typography
+### Mysterious, Eloquent, Dramatic, Cynical, Commanding
 
 ::: {.grid}
 
 ::: {.g-col-4 .well}
-# h1. heading
-## h2. heading
-### h3. heading
-#### h4. heading
-##### h5. heading
-###### h6. heading
+# Mysterious
+## Eloquent
+### Dramatic
+#### Cynical
+##### Commanding
 :::
 
 ::: {.g-col-4}
-### Example body text
+### Enigmatic persona with a Victorian flair. Darkly humorous and authoritative.
 Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula ut id elit.
 :::
 
 ::: {.g-col-4}
-### Example Addresses
-![](img/spinningearth.gif) **Gary's Shoes**
- 9764 Jeopardy Lane, Chicago, Illinois
+### Contact Information
+![](img/sthylmes.png) **Dark Lord's Lair**
+Shadowed Realm, Gothic Castle
 
-[![](img/emailme.gif) first.last@yahoo.com](mailto:#)
-:::
-
+[![](img/contact.gif) sthylmes@darkrealm.com](mailto:#)
 :::
 
-::: {.grid}
-::: {.g-col-6}
->Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.  
-[Someone famous in Source Title]{.block-title}
-:::
-
-::: {.g-col-6}
-:::{.block-right}
->Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.  
-[Someone famous in Source Title]{.block-title}
-:::
-:::
 :::
 
 {{< hammer3 >}}
 
 ## Buttons
 
-{{< btn primary Primary >}}
-{{< btn secondary Secondary >}}
-{{< btn success Success >}}
-{{< btn info Info >}}
-{{< btn warning Warning >}}
-{{< btn danger Danger >}}
-{{< btn light Light >}}
-{{< btn dark Dark >}}
+{{< btn primary Dark Realm >}}
+{{< btn secondary Cryptic >}}
+{{< btn success Enigmatic >}}
+{{< btn info Shadowed >}}
+{{< btn warning Ominous >}}
+{{< btn danger Gothic >}}
+{{< btn light Sinister >}}
+{{< btn dark Mysterious >}}
 
 {{< btn primary Home link=. >}}
 
 {{< hammer3 >}}
 
 
-## ![](img/hot.gif) Table
+## ![](img/cthulhu.gif) Table
 
-![](img/construction/construction6.gif) 
+![](img/vault.gif) 
 
-| Syntax      | Description | Test Text     |
-| :---        |    :----:   |          ---: |
-| Header      | Title       | Here's this   |
-| Paragraph   | Text        | And more      |
-| Paragraph   | Text        | And more      |
+| Dark Arts     | Aspects      | Invoke         |
+| :---          |    :----:    |          ---:  |
+| Dark Magic    | Spellbinding | Summon Fear    |
+| Cursed Souls  | Sorcery      | Bewitch        |
+| Ancient Tombs | Rituals      | Command Power  |
 
-## ![](img/new.gif)Miscellaneous
+## ![](img/darkorder.gif) Miscellaneous
 
-### Panel-tabset
+### Shadowed Tabset
 
 :::{.panel-tabset}
-### Tab A
+### Lair A
 
-Content for `Tab A`
+Discover the secrets of `Lair A`.
 
-### Tab B
+### Lair B
 
-Content for `Tab B`
+Unveil the mysteries of `Lair B`.
 
-### Tab C
+### Lair C
 
-Content for `Tab C`
+Unlock the powers of `Lair C`.
 :::
 
-### Callout Boxes
+### Dark Encounters
 
 :::{.callout-note}
-Note that there are five types of callouts, including:
-`note`, `warning`, `important`, `tip`, and `caution`.
+Prepare for encounters in the shadows, beware the whispers.
 :::
 
 :::{.callout-warning}
-Callouts provide a simple way to attract attention, for example, to this warning.
+Dark omens signal danger, heed the warning.
 :::
 
 :::{.callout-important}
-Danger, callouts will really improve your writing.
+Embrace the darkness, for it holds untold power.
 :::
 
 :::{.callout-tip}
-## Tip With Caption
-This is an example of a callout with a caption.
+## Whispers Of Shadows
+Listen closely to the whispers of shadows, they reveal truths.
 :::
 
 :::{.callout-caution  collapse="true"}
-## Expand To Learn About Collapse
+## Unearth The Unseen
 
-This is an example of a 'folded' caution callout that can be expanded by the user. You can use `collapse="true"` to collapse it by default or `collapse="false"` to make a collapsible callout that is expanded by default.
+Unfold the mysteries buried within the shadows. Use `collapse="true"` to reveal secrets.
 :::
 
-### Fun with text
+### Dark Essence
 
-[blink blink]{.blink_me}  
-[Rainbowtext is fun]{.multicolortext}
+[Embrace the Dark]{.blink_me}  
+[Unleash the Shadows]{.multicolortext}
 
-## Code
+## Forbidden Scripts
 
 
-```{r test}
+```{r dark-spell}
 #| eval: true
 #| echo: true
 #| message: false
-library(igraph)
-g <- sample_gnp(n =100, p = 0.1)
-deg <- degree(g)
-deg
+library(necronomicon)
+spell <- summon_spirits()
+spell
 ```
-
